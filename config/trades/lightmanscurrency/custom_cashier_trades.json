@@ -431,7 +431,7 @@
       "PriceMult": 0.05,
       "Destination": "minecraft:on_ocean_explorer_maps",
       "MapName": "filled_map.monument",
-      "Decoration": "minecraft:ocean_monument",
+      "Decoration": "minecraft:monument",
       "Price2": {
         "id": "lightmanscurrency:coin_emerald",
         "count": 3
@@ -625,7 +625,7 @@
       "PriceMult": 0.05,
       "Destination": "minecraft:on_woodland_explorer_maps",
       "MapName": "filled_map.mansion",
-      "Decoration": "minecraft:woodland_mansion",
+      "Decoration": "minecraft:mansion",
       "Price2": {
         "id": "lightmanscurrency:coin_emerald",
         "count": 4
@@ -828,7 +828,7 @@
         "components": {
           "minecraft:suspicious_stew_effects": [
             {
-              "effect": "minecraft:night_vision",
+              "id": "minecraft:night_vision",
               "duration": 100
             }
           ]
@@ -854,7 +854,7 @@
         "components": {
           "minecraft:suspicious_stew_effects": [
             {
-              "effect": "minecraft:jump_boost",
+              "id": "minecraft:jump_boost",
               "duration": 160
             }
           ]
@@ -880,7 +880,7 @@
         "components": {
           "minecraft:suspicious_stew_effects": [
             {
-              "effect": "minecraft:weakness",
+              "id": "minecraft:weakness",
               "duration": 100
             }
           ]
@@ -906,7 +906,7 @@
         "components": {
           "minecraft:suspicious_stew_effects": [
             {
-              "effect": "minecraft:blindness",
+              "id": "minecraft:blindness",
               "duration": 120
             }
           ]
@@ -932,7 +932,7 @@
         "components": {
           "minecraft:suspicious_stew_effects": [
             {
-              "effect": "minecraft:poison",
+              "id": "minecraft:poison",
               "duration": 100
             }
           ]
@@ -958,7 +958,7 @@
         "components": {
           "minecraft:suspicious_stew_effects": [
             {
-              "effect": "minecraft:saturation",
+              "id": "minecraft:saturation",
               "duration": 7
             }
           ]
