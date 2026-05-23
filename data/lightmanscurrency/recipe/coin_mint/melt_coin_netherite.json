@@ -1,0 +1,15 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:false"
+    }
+  ],
+  "type": "lightmanscurrency:coin_mint",
+  "ingredient": {
+    "item": "minecraft:barrier"
+  },
+  "result": {
+    "count": 0,
+    "id": "minecraft:air"
+  }
+}

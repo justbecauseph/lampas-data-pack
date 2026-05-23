@@ -1,0 +1,57 @@
+{
+  "Chains": [
+    {
+      "chain": "main",
+      "name": {
+        "translate": "lightmanscurrency.money.chain.main"
+      },
+      "displayType": "lightmanscurrency:coin",
+      "displayFormat": {
+        "text": "${value}"
+      },
+      "displayFormatWordy": {
+        "text": "${value}"
+      },
+      "InputType": "TEXT",
+      "CoreChain": [
+        {
+          "Coin": "lightmanscurrency:coin_emerald",
+          "initial": {
+            "translate": "item.lightmanscurrency.coin_emerald.initial"
+          },
+          "plural": {
+            "translate": "item.lightmanscurrency.coin_emerald.plural"
+          }
+        }
+      ],
+      "SideChains": [
+        [
+          {
+            "Coin": "lightmanscurrency:coinpile_emerald",
+            "exchangeRate": 9,
+            "ParentCoin": "lightmanscurrency:coin_emerald",
+            "initial": {
+              "translate": "block.lightmanscurrency.coinpile_emerald.initial"
+            },
+            "plural": {
+              "translate": "block.lightmanscurrency.coinpile_emerald.plural"
+            }
+          },
+          {
+            "Coin": "lightmanscurrency:coinblock_emerald",
+            "exchangeRate": 4,
+            "initial": {
+              "translate": "block.lightmanscurrency.coinblock_emerald.initial"
+            },
+            "plural": {
+              "translate": "block.lightmanscurrency.coinblock_emerald.plural"
+            }
+          }
+        ]
+      ],
+      "ATMData": {
+        "ExchangeButtons": []
+      }
+    }
+  ]
+}
