@@ -10,12 +10,12 @@
       "XP": 2,
       "PriceMult": 0.05,
       "Sell": {
-        "id": "lightmanscurrency:coin_mint",
+        "id": "lightmanscurrency:coinmint",
         "count": 1
       }
     },
     {
-      "Type": "lightmanscurrency:random",
+      "Type": "lightmanscurrency:random_selection",
       "Price": {
         "id": "lightmanscurrency:coinpile_emerald",
         "count": 11
@@ -30,7 +30,7 @@
       }
     },
     {
-      "Type": "lightmanscurrency:random",
+      "Type": "lightmanscurrency:random_selection",
       "Price": {
         "id": "lightmanscurrency:coinpile_emerald",
         "count": 8
@@ -75,7 +75,7 @@
   ],
   "TradesLevel2": [
     {
-      "Type": "lightmanscurrency:random",
+      "Type": "lightmanscurrency:random_selection",
       "Price": {
         "id": "lightmanscurrency:coin_emerald",
         "count": 60
@@ -83,10 +83,10 @@
       "MaxTrades": 12,
       "XP": 1,
       "PriceMult": 0.05,
-      "SellTag": "lightmanscurrency:trader_shelf"
+      "SellTag": "lightmanscurrency:traders/shelf"
     },
     {
-      "Type": "lightmanscurrency:random",
+      "Type": "lightmanscurrency:random_selection",
       "Price": {
         "id": "lightmanscurrency:coinpile_emerald",
         "count": 15
@@ -94,7 +94,7 @@
       "MaxTrades": 12,
       "XP": 1,
       "PriceMult": 0.05,
-      "SellTag": "lightmanscurrency:trader_shelf_2x2",
+      "SellTag": "lightmanscurrency:traders/shelf_2x2",
       "Price2": {
         "id": "lightmanscurrency:coin_emerald",
         "count": 5
@@ -119,7 +119,7 @@
       }
     },
     {
-      "Type": "lightmanscurrency:random",
+      "Type": "lightmanscurrency:random_selection",
       "Price": {
         "id": "lightmanscurrency:coinpile_emerald",
         "count": 11
@@ -127,7 +127,7 @@
       "MaxTrades": 12,
       "XP": 1,
       "PriceMult": 0.05,
-      "SellTag": "lightmanscurrency:trader_display_case",
+      "SellTag": "lightmanscurrency:traders/display_case",
       "Price2": {
         "id": "lightmanscurrency:coin_emerald",
         "count": 1
@@ -136,7 +136,7 @@
   ],
   "TradesLevel3": [
     {
-      "Type": "lightmanscurrency:random",
+      "Type": "lightmanscurrency:random_selection",
       "Price": {
         "id": "lightmanscurrency:coinpile_emerald",
         "count": 16
@@ -144,7 +144,7 @@
       "MaxTrades": 12,
       "XP": 1,
       "PriceMult": 0.05,
-      "SellTag": "lightmanscurrency:trader_card_display",
+      "SellTag": "lightmanscurrency:traders/card_display",
       "Price2": {
         "id": "lightmanscurrency:coin_emerald",
         "count": 6
@@ -196,7 +196,7 @@
       "XP": 10,
       "PriceMult": 0.05,
       "Sell": {
-        "id": "lightmanscurrency:item_network_trader_1",
+        "id": "lightmanscurrency:item_trader_server_sml",
         "count": 1
       },
       "Price2": {
@@ -225,7 +225,7 @@
   ],
   "TradesLevel4": [
     {
-      "Type": "lightmanscurrency:random",
+      "Type": "lightmanscurrency:random_selection",
       "Price": {
         "id": "lightmanscurrency:coinpile_emerald",
         "count": 27
@@ -233,7 +233,7 @@
       "MaxTrades": 12,
       "XP": 1,
       "PriceMult": 0.05,
-      "SellTag": "lightmanscurrency:trader_vending_machine",
+      "SellTag": "lightmanscurrency:traders/vending_machine",
       "Price2": {
         "id": "lightmanscurrency:coin_emerald",
         "count": 7
@@ -249,7 +249,7 @@
       "XP": 15,
       "PriceMult": 0.05,
       "Sell": {
-        "id": "lightmanscurrency:item_network_trader_2",
+        "id": "lightmanscurrency:item_trader_server_med",
         "count": 1
       },
       "Price2": {
@@ -258,7 +258,7 @@
       }
     },
     {
-      "Type": "lightmanscurrency:random",
+      "Type": "lightmanscurrency:random_selection",
       "Price": {
         "id": "lightmanscurrency:coinpile_emerald",
         "count": 33
@@ -266,14 +266,14 @@
       "MaxTrades": 12,
       "XP": 1,
       "PriceMult": 0.05,
-      "SellTag": "lightmanscurrency:trader_freezer",
+      "SellTag": "lightmanscurrency:traders/freezer",
       "Price2": {
         "id": "lightmanscurrency:coin_emerald",
         "count": 3
       }
     },
     {
-      "Type": "lightmanscurrency:random",
+      "Type": "lightmanscurrency:random_selection",
       "Price": {
         "id": "lightmanscurrency:coinpile_emerald",
         "count": 33
@@ -281,7 +281,7 @@
       "MaxTrades": 12,
       "XP": 1,
       "PriceMult": 0.05,
-      "SellTag": "lightmanscurrency:trader_specialty_bookshelf",
+      "SellTag": "lightmanscurrency:traders/special/bookshelf",
       "Price2": {
         "id": "lightmanscurrency:coin_emerald",
         "count": 3
@@ -299,7 +299,7 @@
   ],
   "TradesLevel5": [
     {
-      "Type": "lightmanscurrency:random",
+      "Type": "lightmanscurrency:random_selection",
       "Price": {
         "id": "lightmanscurrency:coinpile_emerald",
         "count": 27
@@ -307,7 +307,7 @@
       "MaxTrades": 12,
       "XP": 1,
       "PriceMult": 0.05,
-      "SellTag": "lightmanscurrency:trader_large_vending_machine",
+      "SellTag": "lightmanscurrency:traders/large_vending_machine",
       "Price2": {
         "id": "lightmanscurrency:coin_emerald",
         "count": 7
@@ -323,7 +323,7 @@
       "XP": 30,
       "PriceMult": 0.05,
       "Sell": {
-        "id": "lightmanscurrency:item_network_trader_3",
+        "id": "lightmanscurrency:item_trader_server_lrg",
         "count": 1
       },
       "Price2": {
@@ -341,7 +341,7 @@
       "XP": 30,
       "PriceMult": 0.05,
       "Sell": {
-        "id": "lightmanscurrency:item_network_trader_4",
+        "id": "lightmanscurrency:item_trader_server_xlrg",
         "count": 1
       },
       "Price2": {
@@ -368,7 +368,7 @@
       }
     },
     {
-      "Type": "lightmanscurrency:random",
+      "Type": "lightmanscurrency:random_selection",
       "Price": {
         "id": "lightmanscurrency:coinblock_emerald",
         "count": 138
