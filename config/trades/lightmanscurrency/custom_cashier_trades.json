@@ -511,7 +511,7 @@
       "XP": 5,
       "PriceMult": 0.05,
       "Sell": {
-        "id": "minecraft:pchop",
+        "id": "minecraft:porkchop",
         "count": 6
       }
     },

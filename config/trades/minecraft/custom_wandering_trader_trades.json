@@ -49,19 +49,19 @@
   ],
   "TradesLevel2": [
     {
-      "Type": "lightmanscurrency:random",
+      "Type": "lightmanscurrency:random_selection",
       "Price": {
         "id": "lightmanscurrency:coinpile_emerald",
         "count": 26
       },
-      "Price2": {
-        "id": "lightmanscurrency:coin_emerald",
-        "count": 6
-      },
       "MaxTrades": 12,
       "XP": 1,
       "PriceMult": 0.05,
-      "SellTag": "lightmanscurrency:trader_display_case"
+      "SellTag": "lightmanscurrency:traders/display_case",
+      "Price2": {
+        "id": "lightmanscurrency:coin_emerald",
+        "count": 6
+      }
     },
     {
       "Type": "lightmanscurrency:simple",

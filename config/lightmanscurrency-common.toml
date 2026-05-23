@@ -23,3 +23,9 @@
 		# List of replacement coin overrides.
 		# Set to empty to force all professions to fall back to the default coin (Elandrian Aur / Emerald Coin).
 		professionEmeraldReplacementOverrides = []
+
+[events]
+	# Whether the Chocolate Event Coins will be added to the coin data.
+	# Disabling this prevents seasonal event coins (chocolate coins) from appearing or replacing default loot during events.
+	chocolate = false
+
