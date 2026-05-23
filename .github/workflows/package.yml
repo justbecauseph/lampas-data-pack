@@ -1,0 +1,34 @@
+name: Package Datapack Mod
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  pull_request:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build Pack
+        run: |
+          mkdir -p build
+          # Zip standard directories and metadata files, excluding git configs and workflows.
+          zip -r build/lampas-data-pack.jar data/ pack.mcmeta META-INF/ README.md -x "*.git*"
+          cp build/lampas-data-pack.jar build/lampas-data-pack.zip
+
+      - name: Upload Pack Jar
+        uses: actions/upload-artifact@v4
+        with:
+          name: lampas-data-pack-jar
+          path: build/lampas-data-pack.jar
+
+      - name: Upload Pack Zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: lampas-data-pack-zip
+          path: build/lampas-data-pack.zip

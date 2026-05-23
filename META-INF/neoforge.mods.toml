@@ -1,0 +1,13 @@
+modLoader="javafml"
+loaderVersion="[2,)"
+license="MIT"
+
+[[mods]]
+modId="lampas"
+version="1.0.0"
+displayName="Lampas Data Pack"
+authors="markj"
+description="Global datapack for server installation."
+
+[properties]
+showAsDataPack=true
