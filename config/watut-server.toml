@@ -35,7 +35,7 @@
 	#Setting false disables all animations
 	showPlayerAnimations = true
 	#Enables or disables typing animation
-	showPlayerAnimation_Typing = true
+	showPlayerAnimation_Typing = false
 	#Enables or disables idle animation
 	showPlayerAnimation_Idle = true
 	#Enables or disables the non typing animations used when showing the open Gui, such as head looking, arms moving up, arms pointing and clicking

@@ -17,7 +17,7 @@
 	#Setting false disables all animations
 	showPlayerAnimations = true
 	#Enables or disables typing animation
-	showPlayerAnimation_Typing = true
+	showPlayerAnimation_Typing = false
 	#Enables or disables idle animation
 	showPlayerAnimation_Idle = true
 	#Enables or disables the non typing animations used when showing the open Gui, such as head looking, arms moving up, arms pointing and clicking
@@ -25,7 +25,7 @@
 	#Show any Gui they're using that isn't chat typing related in world
 	showPlayerActiveNonChatGui = true
 	#Show the chat typing Gui in world
-	showPlayerActiveChatGui = true
+	showPlayerActiveChatGui = false
 	#This is for the older non dynamic GUI only. If there isnt an exact Gui available for what the player is using, it will show the Chest Gui. If this is false, it will show nothing, lots of modded Guis will use this for now
 	showPlayerActiveGuiIfNotExactMatch = true
 	#Show 'Player is typing...' on the chat screen
