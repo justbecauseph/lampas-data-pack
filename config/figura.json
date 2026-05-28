@@ -1,9 +1,0 @@
-{
-  "CONFIG_VERSION": 1,
-  "action_wheel_button": "key.keyboard.grave.accent",
-  "default_permission_level": 4,
-  "chat_messages": true,
-  "main_dir": "",
-  "allow_networking": true,
-  "networking_restriction": 2
-}
