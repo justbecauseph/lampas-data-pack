@@ -1,6 +1,6 @@
 tellraw @a {"text":"Lampas Datapack reloaded!","color":"#A5D6FF"}
 scoreboard objectives add respawnCountdown dummy
-# scoreboard objectives add deathCounter deathCount
+scoreboard objectives add deathCounter deathCount
 scoreboard objectives add ID dummy
 scoreboard objectives add deathID dummy
 scoreboard objectives add save_x dummy

@@ -10,4 +10,3 @@ execute as @a[tag=dead] at @s if score @s deathCounter matches 1 run scoreboard 
 execute as @a[tag=dead] at @s run tag @s remove dead
 execute as @a[tag=respawnPending] at @s if score @s deathCounter matches 0 if score @s respawnCountdown matches 1..60 run scoreboard players remove @s respawnCountdown 1
 execute as @a[tag=respawnPending] at @s if score @s respawnCountdown matches 1 run function lampas:death/respawn
-execute as @a[tag=respawnPending] at @s if score @s respawnCountdown matches 20 run say Bangon na.
