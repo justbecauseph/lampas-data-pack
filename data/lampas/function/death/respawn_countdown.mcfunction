@@ -1,6 +1,7 @@
 execute as @a[scores={deathCounter=1..5}] at @s run scoreboard players set @s deathCounter 1
 execute as @a[scores={deathCounter=..1}] at @s run tag @s add dead
 execute as @a[scores={deathCounter=..1}] at @s run spawnpoint @s ~ ~ ~ ~
+execute as @a[scores={deathCounter=..1}] at @s if entity @a[tag=vision] run tp @s Furguston
 
 execute as @a[scores={deathCounter=1}] at @s run gamemode spectator @s
 
