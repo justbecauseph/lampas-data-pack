@@ -9,5 +9,7 @@ scoreboard objectives add save_z dummy
 scoreboard objectives add save_yaw dummy
 scoreboard objectives add save_pitch dummy
 scoreboard objectives add has_save dummy
+
+scoreboard objectives add biomeListen dummy
 team add noName
 team modify noName nametagVisibility never

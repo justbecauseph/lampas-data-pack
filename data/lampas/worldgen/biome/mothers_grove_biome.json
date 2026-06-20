@@ -1,0 +1,91 @@
+{
+  "temperature_modifier": "none",
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "downfall": 0.5,
+  "effects": {
+    "fog_color": 2788842,
+    "grass_color": 6222825,
+    "foliage_color": 6222825,
+    "ambient_sound": "minecraft:ambient.underwater.loop",
+    "mood_sound": {
+      "block_search_extent": 8,
+      "offset": 2,
+      "sound": "minecraft:ambient.underwater.loop.additions.ultra_rare",
+      "tick_delay": 6000
+    },
+    "sky_color": 5371354,
+    "water_color": 6222825,
+    "water_fog_color": 7861233,
+    "particle": {
+      "options": {
+        "type": "minecraft:trial_spawner_detection_ominous"
+      },
+      "probability": 0.002
+    }
+  },
+  "features": [
+    [
+      "minecraft:spring_water",
+      "minecraft:warm_ocean_vegetation",
+      "sea_pickle",
+      "seagrass_deep_warm",
+      "minecraft:kelp_warm"
+    ]
+  ],
+  "has_precipitation": true,
+  "spawn_costs": {},
+  "spawners": {
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "maxCount": 6,
+        "minCount": 4,
+        "weight": 10
+      }
+    ],
+    "water_ambient": [
+      {
+        "type": "minecraft:cod",
+        "maxCount": 6,
+        "minCount": 3,
+        "weight": 8
+      },
+      {
+        "type": "minecraft:pufferfish",
+        "maxCount": 3,
+        "minCount": 1,
+        "weight": 5
+      },
+      {
+        "type": "minecraft:tropical_fish",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 25
+      }
+    ],
+    "water_creature": [
+      {
+        "type": "minecraft:squid",
+        "maxCount": 4,
+        "minCount": 1,
+        "weight": 8
+      },
+      {
+        "type": "minecraft:dolphin",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 2
+      }
+    ]
+  },
+  "temperature": 0.5
+}

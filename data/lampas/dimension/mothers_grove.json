@@ -1,0 +1,24 @@
+{
+  "type": "lampas:mothers_grove_type",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "lampas:mothers_grove_biome",
+          "parameters": {
+            "temperature": 1,
+            "humidity": 0.6,
+            "continentalness": 2,
+            "erosion": 2,
+            "weirdness": 2,
+            "depth": 0.6,
+            "offset": 1
+          }
+        }
+      ]
+    },
+    "settings": "lampas:mothers_grove_noise"
+  }
+}
